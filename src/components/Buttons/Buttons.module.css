@@ -1,0 +1,52 @@
+.boxButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  outline: none;
+  width: 150px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(0, 115, 255);
+  margin-right: 20px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 450ms, transform 500ms;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  border: 1px solid rgb(1, 106, 17);
+  background-color: rgb(1, 255, 166);
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+
+.buttonReset {
+  outline: none;
+  width: 150px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(244, 86, 59);
+  margin-right: 20px;
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 450ms, transform 500ms;
+}
+
+.buttonReset:hover {
+  transform: scale(1.1);
+  border: 1px solid rgb(1, 106, 17);
+  background-color: rgb(14, 255, 82);
+}

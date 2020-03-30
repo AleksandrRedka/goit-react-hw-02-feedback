@@ -1,0 +1,27 @@
+.statList {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statItem {
+  text-align: center;
+  width: 50%;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.statTotal {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+}
